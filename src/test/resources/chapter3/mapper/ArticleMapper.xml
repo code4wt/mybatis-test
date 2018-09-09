@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="xyz.coolblog.chapter7.dao.ArticleDao">
+
+    <resultMap id="articleResult" type="xyz.coolblog.chapter3.model.Article">
+        <constructor>
+            <idArg column="id" name="id"/>
+            <arg column="title" name="title"/>
+            <arg column="content" name="content"/>
+        </constructor>
+        <id property="id" column="id"/>
+        <result property="author" column="author"/>
+        <result property="createTime" column="create_time"/>
+    </resultMap>
+</mapper>

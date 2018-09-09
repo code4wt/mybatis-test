@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="xyz.coolblog.chapter1.model">
+    <class table="blog_article" name="Article">
+        <id name="id" column="id">
+            <generator class="native" />
+        </id>
+        <property name="title" column="title" />
+        <property name="author" column="author" />
+        <property name="content" column="content" />
+        <property name="createTime" column="create_time"/>
+    </class>
+</hibernate-mapping>
