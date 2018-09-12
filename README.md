@@ -35,4 +35,4 @@ mybatis-test 项目的文件结构大致如下：
 
 1. 执行 sql/myblog.sql 脚本，导入数据到数据库中
 2. 修改 test/resources/log4j.properties 文件，将数据库配置改为你所使用的数据库
-3. 执行 test/java/ 文件夹下的测试代码就行测试
+3. 执行 test/java/ 文件夹下的测试代码进行测试
