@@ -6,10 +6,6 @@
 
 百度网盘：[点击下载](https://pan.baidu.com/s/1d0JTkab0gHOApXrMUbHGuQ)
 
-百度文库：[审核中，这里先放上我的个人主页](https://wenku.baidu.com/u/coolblog_xyz)
-
-CSDN: [点击下载](https://download.csdn.net/download/weixin_43179483/10658977)
-
 <img src="http://blog-pictures.oss-cn-shanghai.aliyuncs.com/shuji.png" width="200px"/>
 
 
